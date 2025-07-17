@@ -1,6 +1,7 @@
 # Introduction
 This repository contains a Jupyter notebook demonstrating a simple neural network that classifies handwritten digits.
 It is based on the practice labs from a machine learning course, and some utility modules referenced in the notebook are not included here.
+
 A `requirements.txt` file is provided for convenience.
 
 # Digits_recognizer_Neuralnetwork
