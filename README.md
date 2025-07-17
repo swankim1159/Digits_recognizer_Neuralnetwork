@@ -1,4 +1,8 @@
-\
+diff --git a/README.md b/README.md
+index afdade0400b5cfcc2ab16484946ce99e44be225b..0db99c8625278ee7482925154e9ae369e04f91d1 100644
+--- a/README.md
++++ b/README.md
+@@ -1,17 +1,24 @@
 -# Digits_recognizer_Neuralnetwork
 -Recognize hand written digits classifier from 0 to 9.
 +# Digits Recognizer Neural Network
