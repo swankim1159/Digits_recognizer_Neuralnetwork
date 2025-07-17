@@ -1,3 +1,4 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index afdade0400b5cfcc2ab16484946ce99e44be225b..0db99c8625278ee7482925154e9ae369e04f91d1 100644
 --- a/README.md
@@ -40,3 +41,6 @@ index afdade0400b5cfcc2ab16484946ce99e44be225b..0db99c8625278ee7482925154e9ae369
 +
 +The dataset and helper functions (`autils`, `public_tests`, `lab_utils_softmax`, etc.) used in the original course material are not part of this repository.
 +You may need to modify the notebook to load your own data or provide alternative implementations for these helpers.
+ 
+EOF
+)
